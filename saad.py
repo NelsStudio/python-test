@@ -67,3 +67,6 @@ response = requests.get("https://randomuser.me/api/")
 person = response.json()
 
 print(person["results"][0]["name"]["first"])
+
+
+sd = "d"
